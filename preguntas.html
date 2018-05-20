@@ -7,38 +7,41 @@
     <title>Preguntas trivia</title>
 </head>
 <body>
-    <form>
+    <form name="preguntas">
         <div>
             <p>¿Qué lenguaje enseñamos en Laboratoria?</p>
-            <input type="radio" name=Question1 value= "Python"> Python <br>
-            <input type="radio" name=Question1 value= "Javascript"> Javascript
+            <input type="radio" name=Question1 value= "1"> Python <br>
+            <input type="radio" name=Question1 value= "2"> Javascript
         </div>
 
         <div>
             <p>¿Cómo se llama la fundadora de Laboratoria?</p>
-            <input type="radio" name=Question2 value= "Grace Hopper"> Grace Hopper <br>
-            <input type="radio" name=Question2 value= "Mariana Costa"> Mariana Costa
+            <input type="radio" name=Question2 value= "1"> Grace Hopper <br>
+            <input type="radio" name=Question2 value= "2"> Mariana Costa
         </div>
         
         <div>
             <p>¿En qué país es sede Laboratoria?</p>
-            <input type="radio" name=Question3 value= "Chile"> Chile <br>
-            <input type="radio" name=Question3 value= "Bolivia"> Bolivia
+            <input type="radio" name=Question3 value= "1"> Chile <br>
+            <input type="radio" name=Question3 value= "2"> Bolivia
         </div>
 
         <div>
             <p>¿En qué año se inició Laboratoria?</p>
-            <input type="radio" name=Question4 value= "1998"> 1998 <br>
-            <input type="radio" name=Question4 value= "2014"> 2014
+            <input type="radio" name=Question4 value= "1"> 1998 <br>
+            <input type="radio" name=Question4 value= "2"> 2014
         </div>
     
         <div>
             <p>¿Cuál de estos es un requisito para postular a Laboratoria?</p>
-            <input type="radio" name=Question5 value= "Saber programar"> Saber programar <br>
-            <input type="radio" name=Question5 value= "Tener mas de 18 años"> Tener más de 18 años
-        </div>
-
-
+            <input type="radio" name=Question5 value= "1"> Saber programar <br>
+            <input type="radio" name=Question5 value= "2"> Tener más de 18 años
+        </div>              
+                         
     </form>
+
+    <button onclick=check()>Enviar respuestas</button>
+    <script src="app.js"></script>
+
 </body>
 </html>
