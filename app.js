@@ -1,10 +1,24 @@
+function play(){
+    var name= document.getElementById("inputName").value;
+
+    var divBienvenida= document.getElementById("Bienvenida");
+
+    divBienvenida.innerHTML= name + " vamos a comenzar!";
+
+    document.getElementById("Preguntas").style.visibility= "visible"
+}
+
+function dontPlay(){
+    document.write("Lástima que no quieras jugar, será para la próxima")
+}
+
 function check() {
     var counter= 0
-    var question1= document.preguntas.Question1.value;
-    var question2= document.preguntas.Question2.value;
-    var question3= document.preguntas.Question3.value;
-    var question4= document.preguntas.Question4.value;
-    var question5= document.preguntas.Question5.value;
+    var question1= document.Questions.Question1.value;
+    var question2= document.Questions.Question2.value;
+    var question3= document.Questions.Question3.value;
+    var question4= document.Questions.Question4.value;
+    var question5= document.Questions.Question5.value;
 
    
     if(question1== "2"){
