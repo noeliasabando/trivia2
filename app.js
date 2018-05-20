@@ -52,5 +52,7 @@ function check() {
         document.write("<p>Respondiste" + " " + counter +" " + "preguntas buenas, ánimo, siempre se puede volver a empezar.<p>")
     }
 
+    document.write("<a href='index.html'><button name= 'boton4'>Volver a comenzar</button></a>")
+
 }
 
