@@ -9,7 +9,9 @@ function play(){
 }
 
 function dontPlay(){
-    document.write("Lástima que no quieras jugar, será para la próxima")
+    document.write("Lástima que no quieras jugar, será para la próxima <br>")
+
+    document.write('<a href="index2.html"><button name= "boton3">Volver al inicio</button></a>')
 }
 
 function check() {
@@ -66,7 +68,7 @@ function check() {
         document.write("<p>Respondiste" + " " + counter +" " + "preguntas buenas, ánimo, siempre se puede volver a empezar.<p>")
     }
 
-    document.write("<a href='index.html'><button name= 'boton4'>Volver a comenzar</button></a>")
+    document.write("<a href='index2.html'><button name= 'boton4'>Volver a comenzar</button></a>")
 
 }
 
