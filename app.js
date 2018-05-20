@@ -5,13 +5,12 @@ function play(){
 
     divBienvenida.innerHTML= name + " vamos a comenzar!";
 
-    document.getElementById("Preguntas").style.visibility= "visible"
+    document.getElementById("Preguntas").style.display= "block"
 }
 
 function dontPlay(){
-    document.write("Lástima que no quieras jugar, será para la próxima <br>")
-
-    document.write('<a href="index2.html"><button name= "boton3">Volver al inicio</button></a>')
+    document.getElementById("dontPlay").style.display= "block" 
+    document.getElementById("Bienvenida").style.display= "none"  
 }
 
 function check() {
