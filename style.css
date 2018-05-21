@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://media.biobiochile.cl/wp-content/uploads/2014/08/Rosie-the-Riveter-e1408659267985.jpg);
+    background-size: 100%;
+}
+
+#Bienvenida{
+    text-align: right;
+    padding: 230px;
+    font-family: cursive;
+}
+
+#inputName{
+    font-family: cursive;
+}
+
+.click{
+    font-family: cursive;
+}
